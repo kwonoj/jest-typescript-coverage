@@ -1,0 +1,25 @@
+{
+  "name": "jest-typescript-coverage",
+  "version": "1.0.0",
+  "description": "Manual coverage remapping example for typescript code using jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwonoj/jest-typescript-coverage.git"
+  },
+  "author": "OJ Kwon <kwon.ohjoong@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwonoj/jest-typescript-coverage/issues"
+  },
+  "homepage": "https://github.com/kwonoj/jest-typescript-coverage#readme",
+  "devDependencies": {
+    "jest": "^16.0.1",
+    "remap-istanbul": "^0.7.0",
+    "ts-jest": "^0.1.7",
+    "typescript": "^2.0.3"
+  }
+}
