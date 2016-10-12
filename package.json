@@ -4,7 +4,7 @@
   "description": "Manual coverage remapping example for typescript code using jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config jest.json",
+    "test": "npm run build && shx rm -rf ./coverage* && jest --config jest.json && node remap_coverage.js",
     "build": "shx rm -rf ./build && tsc"
   },
   "repository": {
@@ -22,9 +22,13 @@
     "@types/jest": "^15.1.32",
     "chai": "^3.5.0",
     "jest": "^16.0.1",
+    "lodash": "^4.16.4",
     "remap-istanbul": "^0.7.0",
     "shx": "^0.1.4",
     "ts-jest": "^0.1.7",
     "typescript": "^2.0.3"
+  },
+  "dependencies": {
+    "jsesc": "^2.2.0"
   }
 }
