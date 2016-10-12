@@ -8,9 +8,12 @@ This repo provides proof-of-concept snippet to manually remap code coverage usin
 # Usage
 
 `npm test` chains all necessary steps to generate coverage, once test completed it'll generate `coverage_jest_raw` for original coverage and `coverage_remapped` for remapped coverage.
-[remap_coverage.js] generates mutated code coverage allows remap to original build's source map then remap it via `remap-istanbul`.
+[remap_coverage.js](https://github.com/kwonoj/jest-typescript-coverage/blob/master/remap_coverage.js) generates mutated code coverage allows remap to original build's source map then remap it via `remap-istanbul`.
 
 *Raw coverage*
 
+![](https://github.com/kwonoj/jest-typescript-coverage/blob/master/images/raw.png)
+
 *Remapped coverage*
 
+![](https://github.com/kwonoj/jest-typescript-coverage/blob/master/images/remapped.png)
