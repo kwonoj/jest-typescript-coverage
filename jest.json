@@ -1,0 +1,24 @@
+{
+  "scriptPreprocessor": "<rootDir>/node_modules/ts-jest/preprocessor.js",
+  "testRegex": "(/spec/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+  "clearMocks": true,
+  "bail": true,
+  "moduleFileExtensions": [
+    "js",
+    "jsx",
+    "json",
+    "ts",
+    "tsx"
+  ],
+  "testPathIgnorePatterns": [
+    "/.tmp/",
+    "/build/"
+  ],
+  "coverageDirectory": "coverage_jest_raw",
+  "collectCoverage": true,
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "/spec/.*\\.(ts|js)$",
+    "/build/.*\\.(ts|js)$"
+  ]
+}
