@@ -1,6 +1,6 @@
 {
   "scriptPreprocessor": "<rootDir>/node_modules/ts-jest/preprocessor.js",
-  "testRegex": "(/spec/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+  "testRegex": "(/spec/.*|\\-(test|spec))\\.(ts|tsx|js)$",
   "clearMocks": true,
   "bail": true,
   "moduleFileExtensions": [
