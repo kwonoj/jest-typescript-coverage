@@ -1,6 +1,5 @@
-# Jest-TypeScript-Coverage
-
-### I have utilized this implementation and updated [ts-jest](https://github.com/kulshekhar/ts-jest#usage) supports basic coverage remapping.
+# Jest-TypeScript-Coverage (DEPRECATED)
+# As jest / ts-jest supports coverage mapping, this repo's content is no longer valid.
 
 [Jest](https://github.com/facebook/jest) allows to use TypeScript based code with test cases by supporting [scriptPreprocessor](https://facebook.github.io/jest/docs/configuration.html#scriptpreprocessor-string),
 but in case of code coverage it doesn't automatically remap coverage into original TypeScript source code but have to manually remap once jest populate coverage results.
